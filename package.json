@@ -1,0 +1,32 @@
+{
+  "name": "ssh-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "db:create": "node src/database/load.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "json-server": "^0.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "ping": "^0.4.1",
+    "sqlite-async": "^1.1.2",
+    "ssh2-promise": "^1.0.2",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

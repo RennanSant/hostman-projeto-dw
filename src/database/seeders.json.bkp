@@ -1,0 +1,30 @@
+{
+    "hosts": [
+        {
+          "name": "VM-01",
+          "address": "192.168.2.201",
+          "user": "root",
+          "password": "senha",
+          "syso": "linux"
+        },
+        {
+          "name": "Windows 8.1",
+          "address": "192.168.2.110",
+          "user": "rennan",
+          "password": "senha",
+          "syso": "windows"
+        }
+      ],
+      "user_logs": [
+        {
+          "date": "dia-semana mes dia ano hora fuso (local)",
+          "user": "exemplo"
+        }
+      ],
+      "user_login":[
+        {
+          "user" : "admin",
+          "password" : "1234"
+        }
+      ]
+}

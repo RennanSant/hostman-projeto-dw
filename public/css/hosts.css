@@ -1,0 +1,27 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.host .fas.fa-trash:hover{
+  cursor: pointer;
+}
+
+.fas.fa-plus-circle.float-end.mt-1{
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+body{
+  background-color: #303444;
+  /* color: #fff */
+  
+}
