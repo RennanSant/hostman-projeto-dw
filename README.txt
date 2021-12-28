@@ -1,3 +1,10 @@
+Para configurar o aplicativo insira os comandos:
+npm install
+npm run db:create
+npm start
+
+
+
 scripts npm run:
 
     npm install --> instalar módulos necessários
