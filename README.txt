@@ -1,3 +1,7 @@
+Projeto em JavaScript, HTML e CSS
+HostMan é um software que permite gerenciar computadores em uma rede local.
+
+
 Para configurar o aplicativo insira os comandos:
 npm install
 npm run db:create
